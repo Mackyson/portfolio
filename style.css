@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	background-color:#EEEEEE;
+}
+
+header {
+	box-sizing:border-box;
+	background-position:0 0;
+	background-size:cover;
+}
+
+header #title{
+	background-image:url("./img/header.jpg");
+	color:#222222;
+	font-family: 'Aleo', serif;
+}
+
+#title {
+	padding:10px 10px 10px 100px;
+}
+
+#container{
+	margin:15px;
+	display:flex;
+	flex-wrap:wrap;
+	padding-left:70px;
+	color:#666666;
+	font-family: 'Noto Serif JP', serif;
+}
+
+#container div{
+	background-color:#FAFAFA;
+	border:solid thin #BBBBBB;
+	margin:10px;
+}
+
+#container h2{
+	padding:0.1em 0.5em;
+	color:#444444;
+}
+
+#container #experience{
+	padding-bottom:1.3em;
+}
+
+#container li{
+	margin:1.3em;
+}
